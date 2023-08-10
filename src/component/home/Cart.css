@@ -1,0 +1,92 @@
+
+.Cart-conatiner{
+    width: 300px;
+    background-color:rgb(68, 66, 66);
+    margin: 5px;
+    border-radius: 7px;
+
+    
+}
+
+
+.gap{
+
+    height: 80px;
+  
+}
+.nameheader{
+     margin-top: 20px;
+     padding: 4px;
+text-align: center;
+background-color:  rgb(216, 212, 212);;
+
+}
+.nameheader:hover{
+    background-color: rgb(135, 133, 133);
+}
+
+
+.discription{
+     display: flex;
+     justify-content: space-around;
+    list-style-type: none;
+}
+
+.discription > li{
+    
+    
+    text-align: center;
+}
+.bottom{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px ;
+}
+
+.talk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    width: 150px;
+    
+    text-align: center;
+    height: 40px;
+
+    
+}
+.talk:hover{
+    background-color: rgb(72, 70, 70);
+    cursor: pointer;
+}
+.talk>span>h3{
+    margin-left: 3px;
+}
+.circle{
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    padding: 7px;
+    
+}
+.share{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(101, 98, 98);
+    
+    border-radius: 7px;
+    color: white;
+    text-align: center;
+    padding-bottom: 7px;
+}
+.share:hover{
+    background-color: rgb(80, 72, 72);
+}
